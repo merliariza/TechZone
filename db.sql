@@ -72,8 +72,7 @@ CREATE TABLE products(
     product_description TEXT,
     price DOUBLE PRECISION,
     id_category INTEGER,
-    minstock INTEGER,
-    maxstock INTEGER,
+    stock INTEGER,
     FOREIGN KEY (id_category) REFERENCES products_category(id)
 );
 

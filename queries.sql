@@ -1,0 +1,7 @@
+--Consultas
+--Listar los productos con stock menor a 5 unidades.
+--Calcular ventas totales de un mes específico.
+--Obtener el cliente con más compras realizadas.
+--Listar los 5 productos más vendidos.
+--Consultar ventas realizadas en un rango de fechas de tres Días y un Mes.
+--Identificar clientes que no han comprado en los últimos 6 meses.
