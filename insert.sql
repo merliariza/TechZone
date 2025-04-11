@@ -88,7 +88,7 @@ INSERT INTO products (product_name, product_description, price, id_category, sto
 ('Smartphone', 'Latest model smartphone', 799.99, 1, 10),
 ('Desk Chair', 'Comfortable office chair', 150.75, 2, 2),
 ('Coffee Table', 'Modern coffee table', 220.99, 2, 80),
-('T-Shirt', 'Cotton T-shirt in various colors', 25.50, 2, 1),
+('Tv', 'Cotton T-shirt in various colors', 25.50, 2, 1),
 ('Jeans', 'Stylish denim jeans', 45.99, 2, 180),
 ('Headphones', 'Noise-cancelling over-ear headphones', 299.99, 1, 10),
 ('Sofa', 'Comfortable 2-seat sofa', 800.00, 2, 40),
@@ -96,8 +96,8 @@ INSERT INTO products (product_name, product_description, price, id_category, sto
 ('Blender', 'High-performance kitchen blender', 99.99, 1, 60),
 ('Lamp', 'LED desk lamp', 40.00, 2, 150),
 ('Washing Machine', 'Automatic washing machine', 499.99, 2, 20),
-('Jacket', 'Warm winter jacket', 120.00, 2, 50),
-('Sneakers', 'Sporty sneakers for all occasions', 75.99, 2, 200),
+('AC', 'Warm winter AC', 120.00, 2, 50),
+('watch', 'Sporty watch for all occasions', 75.99, 2, 200),
 ('Smartwatch', 'Fitness-focused smartwatch', 150.50, 1, 250);
 
 INSERT INTO stock (last_update, id_product) VALUES
@@ -137,7 +137,8 @@ INSERT INTO products_supplier (id_supplier, id_product, quantity) VALUES
 INSERT INTO customers (customer_name, person_id) VALUES
 ('Alejandra', 4),
 ('Pablo', 5),
-('Pedro', 6);
+('Pedro', 6),
+('Marcela', 3);
 
 INSERT INTO sales (sale_date, total) VALUES
 ('2025-04-01 10:00:00', 1000.00),
